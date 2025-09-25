@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Eduarda Petroccioni</title>
+  <meta name="description" content="Portfólio profissional de Eduarda Petroccioni - Cirurgiã-dentista, apaixonada por conhecimento e pela excelência no atendimento.">
+  <meta name="keywords" content="Eduarda Petroccioni, Odontologia, Portfólio, Habilidades, Formação, Contato">
+  <meta name="author" content="Eduarda Petroccioni">
+  <link rel="stylesheet" href="./css/estilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">Eduarda Petroccioni</a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <span></span><span></span><span></span>
+    </label>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#formacao">Formação</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#fluencia">Fluência</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section class="home">
+    <div class="home-img">
+      <img src="./img/princess.png" alt="Eduarda sorrindo em um vestido azul claro">
+    </div>
+    <div class="home-content">
+      <h1>Olá, eu sou <span>Eduarda</span></h1>
+      <h3 class="typing-text">Eu sou <span></span></h3>
+      <p>Cirurgiã-dentista dedicada, apaixonada por promover saúde, bem-estar e autoestima através da odontologia humanizada e moderna.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+      <a href="#sobre" class="btn">Me conheça 💙</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="blocos">
+    <h3>Sobre mim</h3>
+    <p>Sou uma profissional dedicada, ética e comprometida com a excelência. Minha trajetória vai desde a formação técnica em Informática até minha atuação como cirurgiã-dentista, sempre pautada pelo conhecimento, adaptação e compromisso com a saúde bucal.</p>
+  </section>
+
+  <!-- Formação -->
+  <section id="formacao" class="blocos">
+    <h3>Formação</h3>
+    <p>Graduação em Odontologia pela USP, com sólida base técnica e científica. Atuei em especializações que ampliaram minha visão sobre estética, reabilitação oral e saúde integral do paciente. Meu foco é unir ciência, técnica e cuidado individualizado em cada atendimento.</p>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="blocos">
+    <h3>Habilidades</h3>
+    <ul>
+      <li>🦷 Diagnósticos precisos e planejamentos individualizados</li>
+      <li>🦷 Conhecimento técnico-científico atualizado</li>
+      <li>🦷 Experiência em estética e reabilitação oral</li>
+      <li>🦷 Comunicação clara e empática com pacientes</li>
+      <li>🦷 Equilíbrio emocional durante procedimentos clínicos</li>
+      <li>🦷 Gestão do tempo e atendimento humanizado</li>
+    </ul>
+  </section>
+
+  <!-- Fluência -->
+  <section id="fluencia" class="blocos">
+    <h3>Fluência</h3>
+    <p>Fluente em inglês, espanhol e italiano, o que facilita a comunicação em contextos nacionais e internacionais.</p>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="blocos contato">
+    <h3>Contato</h3>
+    <p><strong>📞 Telefone:</strong> +55 11 95354-2426</p>
+    <p><strong>📧 E-mail:</strong> eduarda.polher@senacsp.edu.br</p>
+
+    <form action="https://formsubmit.co/eduarda.polher@senacsp.edu.br" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" placeholder="Digite o seu nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" placeholder="Digite o seu e-mail" required>
+
+      <label for="tel">Telefone:</label>
+      <input type="tel" id="tel" placeholder="Digite o seu telefone:" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" rows="6" placeholder="Escreva sua mensagem..." required></textarea>
+
+      <input type="submit" value="Enviar">
+      <input type="hidden" name="_next" value="">
+      <input type="hidden" name="_captcha" value="false">
+    </form>
+  </section>
+</body>
+</html>
